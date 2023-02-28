@@ -1,0 +1,120 @@
+// .circle {
+//   width: 100px;
+//   height: 70px;
+//   background-color: orange;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, 0%);
+//   border-radius: 50%;
+//   animation: loadingCircle 1s infinite linear;
+// }
+
+// @keyframes loadingCircle {
+//   0% {
+//     height: 70px;
+//     transform: translate(-50%, 0%);
+//   }
+
+//   10% {
+//     height: 100px;
+//   }
+
+//   50% {
+//     transform: translate(-50%, -200%);
+//   }
+
+//   90% {
+//     height: 100px;
+//   }
+
+//   100% {
+//     height: 70px;
+//     transform: translate(-50%, 0%);
+//   }
+// }
+
+// .lines {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 20px;
+//   .line {
+//     height: 50px;
+//     width: 5px;
+//     animation: loadingLine 1s linear infinite;
+//     transform-origin: center;
+    
+//     &:nth-child(1) {
+//       animation-delay: .5s;
+//       background-color: red;
+//     }
+//     &:nth-child(2) {
+//     //   animation-delay: .25s;
+//       background-color: green;
+//     }
+//     &:nth-child(3) {
+//       animation-delay: 0.25s;
+//       background-color: rgba(0, 0, 255, 0.604);
+//     }
+//   }
+// }
+
+// @keyframes loadingLine {
+//   0% {
+//     height: 50px;
+//   }
+
+// //   50% {
+// //     height: 15px;
+// //   }
+
+// //   100% {
+// //     height: 50px;
+// //   }
+// // }
+
+// .center{
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%,-50%);
+// }
+
+// button.animation-hover{
+//     height: 50px;
+//     width: 130px;
+//     border-radius: 10px;
+//     border: none;
+//     outline: none;
+//     cursor: pointer;
+//     overflow: hidden;
+//     background-color: rgba(255, 166, 0, 0.596);
+//     transition: .2s     ;
+
+//     &:hover{
+//         background-color: red;
+//         transform: scale(1.1) translate(-50%,-50%);
+//     }
+    
+//     &:hover::after{
+//         left: 110%;
+//     }
+//     &::after{
+//         content: '';
+//         height: 200px;
+//         position: absolute;
+//         left: -70%;
+//         top: 0;
+//         transform: translate(-50%,-50%) rotate(-50deg);
+//         background-color: #FFF1DC;
+//         width: 5px;
+//         height: 200px;
+//         transition: .3s;
+//         box-shadow: 0 0 20px 2px #FFF1DC;
+//     }
+// }
